@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #1F2937;
+    color:#F9FAF8 ;
+    padding: 10px;
+  
+}
+header ul{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    gap:20px;
+}
+.header_main{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+h3{
+    margin-top: 10px;
+    margin-left: 150px;
+    font-size: 24pt;
+}
+.header_list{
+    margin-right: 150px;
+    margin-top: 20px;
+}
+
+.section_container{
+    display: flex;
+    flex-basis: 1;
+}
+.awesome{
+    margin-left: 150px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.awesome button{
+    width: 70px;
+    background-color: #3882F6;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    color: #F9FAF8;
+}
+.right_upper{
+    margin-right: 150px;
+    width: 200px;
+    height: 150px;
+    background-color:gray ;
+}
+main section {
+    height: 300px;
+}
+main .first_section{
+    margin: 20px auto;
+    text-align: center;
+    
+}
+
+.container{
+    padding: 20px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.box{
+    border: 3px solid blue;
+    width: 130px;
+    height: 130px;
+    border-radius: 15px;
+}
+.second_section{
+    background-color:#E5E7EB ;
+    padding: 20px;
+    
+    
+}
+blockquote{
+    width: 60%;
+    margin: 70px auto;
+}
+.author{
+    text-align: right;
+    width: 60%;
+    margin: 20px auto;
+    font-weight: bolder;
+}
+.third_section{
+    background-color: #F7F7F7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container2{
+    width: 80%;   
+    height: 100px;
+    background-color: #3882F6;
+    padding: 40px;
+    border-radius: 5px;
+    color: #F7F7F7;
+
+}
+.container2{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.container2 button{
+    width: 70px;
+    height: 20px;
+    border: 2px solid white ;
+    background-color: transparent;
+    color: #F9FAF8;
+    border-radius: 3px;
+
+}
